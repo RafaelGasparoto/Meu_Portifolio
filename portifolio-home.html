@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Meu Portifólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/projetos.css">
+    <link rel="stylesheet" href="style/apresentacao.css">
+    <link rel="stylesheet" href="style/geral.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="secao-redes-socias">
+        <button class="redes-sociais", onclick="window.open('https://www.linkedin.com/in/rafael-gasparoto-437526187/', '_blank')">
+          <i class="fa fa-linkedin-square" style="font-size:25px"></i>
+        </button>
+        <button class="redes-sociais", onclick="window.open('mailto:rafaelgasparoto4@gmail.com', '_blank')">  
+          <i class="fa fa-envelope" style="font-size:25px"></i>
+        </button>
+        <button class="redes-sociais", onclick="window.open('https://wa.me/5545991234251?text=Ol%C3%A1+Rafael%2C+vi+o+seu+portif%C3%B3lio...', '_blank')">
+          <i class="fa fa-whatsapp" style="font-size:25px"></i>
+        </button>
+        <button class="redes-sociais", onclick="window.open('https://github.com/RafaelGasparoto', '_blank')">
+          <i class="fa fa-github" style="font-size:25px"></i>
+        </button>
+      </div>
+      <div class="atalho">
+        <i class="fa fa-bars" style="font-size:30px"></i>
+      </div>
+    </div>
+    <section class="apresentacao">
+      <h1>
+        Olá, eu sou o Rafael
+      </h1>
+      <h2>
+        Eu sou um desenvolvedor de software
+      </h2>
+      <button class="cv", onclick="window.open('https://drive.google.com/file/d/12Q9SlxLQXGPNfJAarpe38_jo8XtILAwM/view?usp=sharing', '_blank')">
+        CV
+      </button>
+    </section>
+    <section class="sobre-mim">
+      <h3>
+        Sobre mim
+      </h3>
+        Sou de Toledo, tenho 23 anos e faço faculdade de engenharia de computação pela UTFPR, estou no 6º periodo. Criei este projeto de portifólio tanto
+        para treinar minhas habilidades com HTML e CSS quanto para apresentar os meus projetos que já fiz.
+      <br>
+      <br>Tenho conhecimento em C/C++, Python, Dart/Flutter, VBA, SQL, HTML e CSS.
+    </section>
+    <section class="projetos">
+        <div class="lado-imagem">
+          <img src="imagens/imagem-projeto-1.png", class="img-projeto">
+        </div>
+        <div class="descricao-do-projeto">
+          <h4>
+            Campo Minado
+          </h4>
+          <p>
+            Este foi meu primeiro grande projeto na faculdade, a idéia era construir um jogo de campo minado em C que fosse possível jogar,
+             salvar e carregar para jogar novamente outra vez que fosse executado. 
+             Não é usado interfece gráfica, então ele roda pelo terminal. É possivel ver mais sobre o funcionamento dele através do 
+             <a href="https://github.com/RafaelGasparoto/Campo_Minado/raw/master/campominado_definitive_edition.exe">executável</a> e 
+             o <a href="https://github.com/RafaelGasparoto/Campo_Minado/blob/master/campominado_definitive_edition.c" target="_blank">código fonte</a>.
+          </p>
+        </div>
+    </section>
+    <section class="projetos">
+      <div class="descricao-do-projeto">
+        <h4>
+          Sistema de Portas Lógicas
+        </h4>
+        <p>
+          Projeto de orientação a objetos feito em C++ através da SDK QtCreator. O programa foi criado 100% sem ajuda de Forms. É um software que simula um sistema de portas lógicas que pode ser montado de acordo com a sua necessidade,
+          foram implementados os operadores lógicos or, and e not. O programa ainda permite salvar e carregar os sistemas criados. 
+          Você pode fazer o download do <a href="https://github.com/RafaelGasparoto/Sistema_De_Portas_Logicas/raw/main/Sistema%20de%20Portas%20L%C3%B3gicas.zip">programa</a> para utilizar e 
+          ter acesso ao repositório disponível <a href="https://github.com/RafaelGasparoto/Sistema_De_Portas_Logicas/tree/main/SistemaDePortasLogicas">aqui</a>.
+        </p>
+      </div>
+      <div class="lado-imagem">
+        <img src="imagens/imagem-projeto-2.png", class="img-projeto">
+      </div>
+  </section>
+  <section class="projetos">
+    <div class="lado-imagem">
+      <img src="imagens/imagem-projeto-3.png", class="img-projeto">
+    </div>
+    <div class="descricao-do-projeto">
+      <h4>
+        Análise Musical - Método de Agrupamento<br>K-Means
+      </h4>
+      <p>
+        Um programa de ciência de dados, escrito em Python, feito para agrupar músicas por gênero. Os dados foram recolhidos através da API do Spotify, 
+        então foi feito uma análise e tratamento de dados
+        para determinar duas caracteriscas que poderiam determinar o gênero da música. Para determinar os clusters foi 
+        utilizado o algoritmo de mineração de dados K-Means. Eu escrevi um 
+        <a href="https://github.com/RafaelGasparoto/Analise_Musical/raw/main/An%C3%A1lise%20Musical_%20M%C3%A9todo%20de%20Agrupamento%20K-Means.pdf">artigo</a> 
+        explicando melhor sobre o projeto, também é possivel visualizar o <a href="https://github.com/RafaelGasparoto/Analise_Musical/blob/main/Analise_musical.ipynb">código fonte</a>.
+      </p>
+    </div>
+  </section>
+  <section class="projetos">
+    <div class="descricao-do-projeto">
+      <h4>
+        Zodiaco Karma
+      </h4>
+      <p>
+        Este é um app que fiz em Flutter que mostra o carma de acordo com o signo da pessoa, 
+        é algo simples que usei para aprender a usar dropdownbox, mudar nome e icone do apps. Acesso ao repositório <a href="https://github.com/RafaelGasparoto/Zodiaco_Karma">aqui</a>.
+      </p>
+    </div>
+    <div class="lado-imagem">
+      <img src="imagens/imagem-projeto-4.png", class="img-projeto">
+    </div>
+  </section>
+  <section class="projetos">
+    <div class="lado-imagem">
+      <img src="imagens/imagem-projeto-5.gif", class="img-projeto" style="height: 700px; width: 350px;">
+    </div>
+    <div class="descricao-do-projeto">
+      <h4>
+        Dado da Sorte
+      </h4>
+      <p>
+        App feito em flutter, fiz para testar o uso de GestureDetector, é um simples jogo de dados com 50/50 chances de vitória. 
+        A idéia é futuramente inserir vários jogos de azar. O repositório dele pode ser acessado <a href="https://github.com/RafaelGasparoto/Dado_da_Sorte">aqui</a>.
+      </p>
+    </div>
+  </section>
+  <section class="projetos">
+    <div class="descricao-do-projeto">
+      <h4>
+        Meu Portifólio
+      </h4>
+      <p>
+        Este site é o meu mais recente projeto. Estou fazendo para praticar HTML e CSS, além de poder expor um pouco dos meus projetos. Ainda não está finalizado, os próximos 
+        planos são tentar mudar o desing para se tornar algo mais agradável. O código fonte pode ser visto <a href="">aqui</a>.
+      </p>
+    </div>
+    <div class="lado-imagem">
+      <img src="imagens/imagem-projeto-6.png", class="img-projeto">
+    </div>
+  </section>
+  </body>
+</html>
